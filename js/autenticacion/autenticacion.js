@@ -135,7 +135,7 @@ async function iniciarSesion(e) {
         // Guarda el ID en localStorage
         localStorage.setItem("userId", usuario.id);
         // Redirigir al admin para el html
-        window.location.href = "/views/home/home.html";
+        window.location.href = "index.html";
         // window.location.href = "";
       } else if (usuario.tipo === "admin") {
         // Guarda el ID en localStorage
